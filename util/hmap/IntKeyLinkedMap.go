@@ -10,7 +10,7 @@ import (
 	//GetKeySet
 	"container/list"
 
-	"github.com/whatap/golib/util/stringutil"
+	"github.com/whatap/golib-llm/util/stringutil"
 )
 
 type IntKeyLinkedMap struct {

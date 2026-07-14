@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 const ARRAY_DOUBLE = 75

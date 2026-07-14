@@ -3,7 +3,7 @@ package value
 import (
 	"strconv"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 type FloatValue struct {

@@ -5,10 +5,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/lang"
-	"github.com/whatap/golib/lang/value"
-	"github.com/whatap/golib/util/hmap"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/lang"
+	"github.com/whatap/golib-llm/lang/value"
+	"github.com/whatap/golib-llm/util/hmap"
 )
 
 type CounterPack1 struct {

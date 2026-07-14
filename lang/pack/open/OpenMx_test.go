@@ -3,7 +3,7 @@ package open
 import (
 	"testing"
 	// "github.com/stretchr/testify/assert"
-	// "github.com/whatap/golib/net/oneway"
+	// "github.com/whatap/golib-llm/net/oneway"
 )
 
 func Test_OpenMx(t *testing.T) {

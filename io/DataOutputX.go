@@ -1,4 +1,4 @@
-//github.com/whatap/golib/io
+//github.com/whatap/golib-llm/io
 package io
 
 import (

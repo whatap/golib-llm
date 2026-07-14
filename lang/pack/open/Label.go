@@ -1,8 +1,8 @@
 package open
 
 import (
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/hash"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/hash"
 )
 
 type Label struct {

@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/natefinch/lumberjack"
-	"github.com/whatap/golib/util/ansi"
+	"github.com/whatap/golib-llm/util/ansi"
 )
 
 //PanicLogger panic logger

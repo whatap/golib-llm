@@ -17,7 +17,7 @@ import (
 	"strings"
 
 	//"gitlab.whatap.io/go/agent/util/logutil"
-	"github.com/whatap/golib/util/stringutil"
+	"github.com/whatap/golib-llm/util/stringutil"
 )
 
 // ExecuteShellCommand executes a single-line shell script and returns its combined output.

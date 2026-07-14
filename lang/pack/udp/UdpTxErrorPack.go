@@ -3,7 +3,7 @@ package udp
 import (
 	"fmt"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 type UdpTxErrorPack struct {

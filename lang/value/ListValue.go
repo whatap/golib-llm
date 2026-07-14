@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 type ListValue struct {

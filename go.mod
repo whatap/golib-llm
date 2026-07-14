@@ -1,4 +1,4 @@
-module github.com/whatap/golib
+module github.com/whatap/golib-llm
 
 go 1.17
 

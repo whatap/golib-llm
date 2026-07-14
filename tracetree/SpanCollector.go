@@ -3,7 +3,7 @@ package tracetree
 import (
 	"strings"
 
-	"github.com/whatap/golib/util/hmap"
+	"github.com/whatap/golib-llm/util/hmap"
 )
 
 const (

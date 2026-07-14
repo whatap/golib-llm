@@ -3,7 +3,7 @@ package udp
 import (
 	"sync"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 const (

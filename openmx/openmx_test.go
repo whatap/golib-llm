@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whatap/golib/lang/pack"
-	"github.com/whatap/golib/lang/pack/open"
-	"github.com/whatap/golib/logger"
-	// "github.com/whatap/golib/net"
-	// "github.com/whatap/golib/net/oneway"
+	"github.com/whatap/golib-llm/lang/pack"
+	"github.com/whatap/golib-llm/lang/pack/open"
+	"github.com/whatap/golib-llm/logger"
+	// "github.com/whatap/golib-llm/net"
+	// "github.com/whatap/golib-llm/net/oneway"
 )
 
 var (

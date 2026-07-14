@@ -1,4 +1,4 @@
-//github.com/whatap/golib/util/keygen
+//github.com/whatap/golib-llm/util/keygen
 package keygen
 
 import (

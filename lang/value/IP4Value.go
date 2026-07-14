@@ -1,9 +1,9 @@
 package value
 
 import (
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/compare"
-	"github.com/whatap/golib/util/iputil"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/compare"
+	"github.com/whatap/golib-llm/util/iputil"
 )
 
 type IP4Value struct {

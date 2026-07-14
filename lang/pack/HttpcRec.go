@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/lang/variable"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/lang/variable"
 )
 
 type HttpcRec struct {

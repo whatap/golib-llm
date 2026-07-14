@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 const VALUE_METRIC = 82

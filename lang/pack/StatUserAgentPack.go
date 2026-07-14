@@ -3,8 +3,8 @@ package pack
 import (
 	//	"log"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/hmap"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/hmap"
 )
 
 const (

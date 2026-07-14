@@ -1,7 +1,7 @@
 package pack
 
 import (
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 type DiskPerf struct {

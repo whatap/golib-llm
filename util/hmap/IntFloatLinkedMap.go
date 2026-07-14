@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 type IntFloatLinkedMap struct {

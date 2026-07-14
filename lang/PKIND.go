@@ -3,7 +3,7 @@ package lang
 import (
 	"fmt"
 
-	"github.com/whatap/golib/util/hmap"
+	"github.com/whatap/golib-llm/util/hmap"
 )
 
 type PKIND struct {

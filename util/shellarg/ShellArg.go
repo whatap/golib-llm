@@ -3,8 +3,8 @@ package shellarg
 import (
 	"strings"
 
-	"github.com/whatap/golib/util/castutil"
-	"github.com/whatap/golib/util/hmap"
+	"github.com/whatap/golib-llm/util/castutil"
+	"github.com/whatap/golib-llm/util/hmap"
 )
 
 type ShellArg struct {

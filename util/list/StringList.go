@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/lang/value"
-	"github.com/whatap/golib/util/compare"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/lang/value"
+	"github.com/whatap/golib-llm/util/compare"
 )
 
 type StringList struct {

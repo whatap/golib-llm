@@ -3,9 +3,9 @@ package udp
 import (
 	"fmt"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/stringutil"
-	"github.com/whatap/golib/util/urlutil"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/stringutil"
+	"github.com/whatap/golib-llm/util/urlutil"
 )
 
 type UdpTxHttpcPack struct {
