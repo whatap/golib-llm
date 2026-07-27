@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/whatap/golib/config"
-	"github.com/whatap/golib/util/dateutil"
-	"github.com/whatap/golib/util/hash"
-	"github.com/whatap/golib/util/stringutil"
+	"github.com/whatap/golib-llm/config"
+	"github.com/whatap/golib-llm/util/dateutil"
+	"github.com/whatap/golib-llm/util/hash"
+	"github.com/whatap/golib-llm/util/stringutil"
 )
 
 const ()

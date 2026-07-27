@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/lang/value"
-	"github.com/whatap/golib/util/castutil"
-	"github.com/whatap/golib/util/hmap"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/lang/value"
+	"github.com/whatap/golib-llm/util/castutil"
+	"github.com/whatap/golib-llm/util/hmap"
 )
 
 type AgentPropertyPack struct {

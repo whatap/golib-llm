@@ -4,8 +4,8 @@ import (
 	"context"
 	_ "time"
 
-	"github.com/whatap/golib/config"
-	"github.com/whatap/golib/logger"
+	"github.com/whatap/golib-llm/config"
+	"github.com/whatap/golib-llm/logger"
 )
 
 type fileConfigConfig struct {

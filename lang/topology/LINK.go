@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/compare"
-	"github.com/whatap/golib/util/hash"
-	"github.com/whatap/golib/util/hmap"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/compare"
+	"github.com/whatap/golib-llm/util/hash"
+	"github.com/whatap/golib-llm/util/hmap"
 )
 
 //import java.net.InetAddress;

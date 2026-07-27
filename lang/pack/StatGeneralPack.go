@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/hmap"
-	"github.com/whatap/golib/util/list"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/hmap"
+	"github.com/whatap/golib-llm/util/list"
 )
 
 type StatGeneralPack struct {

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 type UdpDBConPoolPack struct {

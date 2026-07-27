@@ -14,13 +14,13 @@ import (
 	"path/filepath"
 	"runtime/debug"
 
-	"github.com/whatap/golib/config"
-	"github.com/whatap/golib/lang/value"
-	"github.com/whatap/golib/logger"
-	"github.com/whatap/golib/util/ansi"
-	"github.com/whatap/golib/util/dateutil"
-	"github.com/whatap/golib/util/hmap"
-	"github.com/whatap/golib/util/stringutil"
+	"github.com/whatap/golib-llm/config"
+	"github.com/whatap/golib-llm/lang/value"
+	"github.com/whatap/golib-llm/logger"
+	"github.com/whatap/golib-llm/util/ansi"
+	"github.com/whatap/golib-llm/util/dateutil"
+	"github.com/whatap/golib-llm/util/hmap"
+	"github.com/whatap/golib-llm/util/stringutil"
 )
 
 const (

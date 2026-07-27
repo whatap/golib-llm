@@ -3,9 +3,9 @@ package open
 import (
 	"fmt"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/dateutil"
-	"github.com/whatap/golib/util/stringutil"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/dateutil"
+	"github.com/whatap/golib-llm/util/stringutil"
 )
 
 type OpenMx struct {

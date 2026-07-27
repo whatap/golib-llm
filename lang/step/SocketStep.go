@@ -1,7 +1,7 @@
 package step
 
 import (
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 type SocketStep struct {

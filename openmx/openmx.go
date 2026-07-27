@@ -1,8 +1,8 @@
 package openmx
 
 import (
-	"github.com/whatap/golib/lang/pack"
-	"github.com/whatap/golib/lang/pack/open"
+	"github.com/whatap/golib-llm/lang/pack"
+	"github.com/whatap/golib-llm/lang/pack/open"
 )
 
 const (

@@ -1,8 +1,8 @@
 package pack
 
 import (
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/lang/pack/open"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/lang/pack/open"
 )
 
 const (

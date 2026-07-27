@@ -3,7 +3,7 @@ package pack
 import (
 	"fmt"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 const ()

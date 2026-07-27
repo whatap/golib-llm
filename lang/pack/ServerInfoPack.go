@@ -1,9 +1,9 @@
 package pack
 
 import (
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/lang/value"
-	"github.com/whatap/golib/util/dateutil"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/lang/value"
+	"github.com/whatap/golib-llm/util/dateutil"
 )
 
 const RUMCTL string = "rumctl"

@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/whatap/golib/util/dateutil"
-	"github.com/whatap/golib/util/list"
+	"github.com/whatap/golib-llm/util/dateutil"
+	"github.com/whatap/golib-llm/util/list"
 )
 
 type RequestDoubleQueue struct {

@@ -6,14 +6,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/whatap/golib/config"
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/lang/pack"
-	"github.com/whatap/golib/logger"
-	wnet "github.com/whatap/golib/net"
-	"github.com/whatap/golib/util/compressutil"
-	"github.com/whatap/golib/util/dateutil"
-	"github.com/whatap/golib/util/queue"
+	"github.com/whatap/golib-llm/config"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/lang/pack"
+	"github.com/whatap/golib-llm/logger"
+	wnet "github.com/whatap/golib-llm/net"
+	"github.com/whatap/golib-llm/util/compressutil"
+	"github.com/whatap/golib-llm/util/dateutil"
+	"github.com/whatap/golib-llm/util/queue"
 )
 
 const (

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/whatap/golib/config"
-	"github.com/whatap/golib/logger"
-	wnet "github.com/whatap/golib/net"
+	"github.com/whatap/golib-llm/config"
+	"github.com/whatap/golib-llm/logger"
+	wnet "github.com/whatap/golib-llm/net"
 )
 
 type oneWayTcpClientConfig struct {

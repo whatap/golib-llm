@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/stringutil"
-	"github.com/whatap/golib/util/urlutil"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/stringutil"
+	"github.com/whatap/golib-llm/util/urlutil"
 )
 
 type UdpTxEndPack struct {
@@ -42,6 +42,9 @@ type UdpTxEndPack struct {
 
 	IsLlm int32
 	LoginId string
+
+	SessionId string
+	TurnId    string
 
 	// Processing data
 	ServiceURL     *urlutil.URL
@@ -102,6 +105,9 @@ func (this *UdpTxEndPack) Clear() {
 
 	this.IsLlm = 0
   this.LoginId = ""
+
+	this.SessionId = ""
+	this.TurnId = ""
 
 	// Processing data
 	this.ServiceURL = nil
@@ -190,6 +196,11 @@ func (this *UdpTxEndPack) Write(dout *io.DataOutputX) {
 		}
 		if this.Ver >= 20106 {
 			dout.WriteTextShortLength(stringutil.ParseStringZeroToEmpty(this.McallerStepId))
+		}
+		if this.Ver >= 20107 {
+			dout.WriteTextShortLength(this.LoginId)
+			dout.WriteTextShortLength(this.SessionId)
+			dout.WriteTextShortLength(this.TurnId)
 		}
 	} else {
 		// PHP
@@ -310,6 +321,11 @@ func (this *UdpTxEndPack) Read(din *io.DataInputX) {
 		}
 		if this.Ver >= 20106 {
 			this.McallerStepId = stringutil.ParseInt64(din.ReadTextShortLength())
+		}
+		if this.Ver >= 20107 {
+			this.LoginId = din.ReadTextShortLength()
+			this.SessionId = din.ReadTextShortLength()
+			this.TurnId = din.ReadTextShortLength()
 		}
 	} else {
 		// PHP

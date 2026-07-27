@@ -75,7 +75,7 @@ import (
 	//"log"
 	"math"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 type HyperLogLog struct {

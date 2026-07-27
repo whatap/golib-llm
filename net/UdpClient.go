@@ -1,4 +1,4 @@
-//github.com/whatap/golib/net
+//github.com/whatap/golib-llm/net
 package net
 
 import (
@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/whatap/golib/config"
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/lang/pack"
-	"github.com/whatap/golib/lang/pack/udp"
-	"github.com/whatap/golib/logger"
-	"github.com/whatap/golib/util/dateutil"
+	"github.com/whatap/golib-llm/config"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/lang/pack"
+	"github.com/whatap/golib-llm/lang/pack/udp"
+	"github.com/whatap/golib-llm/logger"
+	"github.com/whatap/golib-llm/util/dateutil"
 )
 
 const (

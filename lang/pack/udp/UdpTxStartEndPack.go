@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/stringutil"
-	"github.com/whatap/golib/util/urlutil"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/stringutil"
+	"github.com/whatap/golib-llm/util/urlutil"
 )
 
 type UdpTxStartEndPack struct {
@@ -46,6 +46,9 @@ type UdpTxStartEndPack struct {
 	ProfIFuncCount       int32
 
 	LoginId string
+
+	SessionId string
+	TurnId    string
 
 	//Processing data
 	ServiceURL     *urlutil.URL
@@ -113,6 +116,9 @@ func (this *UdpTxStartEndPack) Clear() {
 
 	this.LoginId = ""
 
+	this.SessionId = ""
+	this.TurnId = ""
+
 	//Processing data
 	this.ServiceURL = nil
 	this.RefererURL = nil
@@ -173,6 +179,11 @@ func (this *UdpTxStartEndPack) Write(dout *io.DataOutputX) {
 		dout.WriteTextShortLength(this.McallerSpec)
 		dout.WriteTextShortLength(this.McallerUrl)
 		dout.WriteTextShortLength(this.McallerPoidKey)
+		if this.Ver >= 20107 {
+			dout.WriteTextShortLength(this.LoginId)
+			dout.WriteTextShortLength(this.SessionId)
+			dout.WriteTextShortLength(this.TurnId)
+		}
 	} else {
 		// PHP
 		dout.WriteTextShortLength(this.HttpMethod)
@@ -256,6 +267,11 @@ func (this *UdpTxStartEndPack) Read(din *io.DataInputX) {
 		this.McallerSpec = din.ReadTextShortLength()
 		this.McallerUrl = din.ReadTextShortLength()
 		this.McallerPoidKey = din.ReadTextShortLength()
+		if this.Ver >= 20107 {
+			this.LoginId = din.ReadTextShortLength()
+			this.SessionId = din.ReadTextShortLength()
+			this.TurnId = din.ReadTextShortLength()
+		}
 	} else {
 		// PHP
 		this.HttpMethod = din.ReadTextShortLength()

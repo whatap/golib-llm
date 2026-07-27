@@ -3,8 +3,8 @@ package udp
 import (
 	"fmt"
 
-	"github.com/whatap/golib/io"
-	"github.com/whatap/golib/util/hash"
+	"github.com/whatap/golib-llm/io"
+	"github.com/whatap/golib-llm/util/hash"
 )
 
 type UdpTxHttpcStartPack struct {

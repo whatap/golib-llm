@@ -3,7 +3,7 @@ package open
 import (
 	"fmt"
 
-	"github.com/whatap/golib/io"
+	"github.com/whatap/golib-llm/io"
 )
 
 // To avoid cycle import errors, copy from pack.AbstractPack.

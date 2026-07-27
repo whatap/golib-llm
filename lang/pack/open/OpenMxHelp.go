@@ -1,9 +1,9 @@
 package open
 
 import (
-	"github.com/whatap/golib/io"
-	langvalue "github.com/whatap/golib/lang/value"
-	"github.com/whatap/golib/util/stringutil"
+	"github.com/whatap/golib-llm/io"
+	langvalue "github.com/whatap/golib-llm/lang/value"
+	"github.com/whatap/golib-llm/util/stringutil"
 )
 
 type OpenMxHelp struct {
